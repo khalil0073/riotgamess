@@ -1,0 +1,342 @@
+.bg-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.riotgames.com/darkroom/800/d16bfdda8ad27287d56de3bb230aed0d:4839a3501847cb964cb61d062ee8d0f5/tibbers.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 600px) {
+    .bg-1 {
+        height: 100vh;
+        width: 100%;
+        background-image: url(https://www.riotgames.com/darkroom/1000/d16bfdda8ad27287d56de3bb230aed0d:ff467e666846eb499caed1d29ef8507a/tibbers.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1000px) {
+    .bg-1 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://www.riotgames.com/darkroom/2000/e76c532a5193f5ca58776f2bae5c7b56:9ad0db47f1d7fb8ee5e4a3843d63a96b/tibbers.jpg);
+        background-size: cover;
+    }
+}
+
+.textBg {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: gray;
+    font-size: 80px;
+}
+
+.centertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    position: relative;
+    background: #e7e6e3;
+    margin: -10px;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.placement {
+    box-sizing: border-box;
+    width: 80%;
+    background: #e7e6e3;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.displayimages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.img2 {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .img2 {
+        padding: 3px;
+        width: 50%;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1000px) {
+    .img2 {
+        width: 50%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+.centerforge {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bggray {
+    background-color: #e7e6e3;
+}
+
+.headingriotforge {
+    font-size: 3.125rem;
+    line-height: 1.16;
+    font-weight: 800;
+}
+
+.riotforge-bg {
+    background-image: url(https://www.riotgames.com/darkroom/550/0576527989f03402fafc0cc7dad53881:8eb593170b18072a0e624f0116f16e89/riotgamescom-forge.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (min-width: 600px) {
+    .riotforge-bg {
+        background-image: url(https://www.riotgames.com/darkroom/960/61b66c76ca85839d35323e8fa2205d8c:93b016a7d8a61bce799ab964008b58a2/riotgamescom-forge.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .riotforge-bg {
+        background-image: url(https://www.riotgames.com/darkroom/1000/f101130226cf47e1812c643b751f67a9:b1e4bc34abfe82827f0c360cac3ca492/riotgamescom-forge.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.content-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+.position2 {
+    position: relative;
+    background: #e7e6e3;
+    margin: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.text-alignement {
+    padding: 40px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    top: 50%;
+    position: absolute;
+}
+
+@media screen and (min-width: 550px) {
+    .positionquestion {
+        font-size: .688rem;
+        line-height: 1.364;
+    }
+}
+
+.positionquestion {
+    font-family: ClassicGrotesqueW02, Arial, sans-serif;
+    font-weight: 700;
+    font-size: .625rem;
+    line-height: 1.6;
+    letter-spacing: .12em;
+    
+    position: relative;
+    color: #e7e6e3;
+    display: inline-block;
+    padding: 3px 10px 2px;
+    background-color: #d1363a;
+}
+@media screen and (min-width: 960px){
+.h3size{
+    font-size: 2.75rem;
+    line-height: 1.227;
+}}
+@media screen and (min-width: 550px){
+.h3size {
+    font-size: 2.25rem;
+    line-height: 1.278;
+}}
+.h3size {
+    font-weight: 800;
+    letter-spacing: .01em;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.h3style {
+    font-family: 'Proxima Nova W02',Arial,sans-serif;
+    color: #2b2a29;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: pre-wrap;
+    color: #e7e6e3!important;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+.paragraph-style{
+   
+    color:#e7e6e3 ;
+    
+    
+
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+@media screen and (min-width: 550px){
+.text-in-button .button {
+    margin-top: 40px;
+}}
+.text-in-button.button {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 550px){
+.button {
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-width: 180px;
+}}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 32px;
+    color: #e7e6e3;
+    letter-spacing: .025em;
+    background-color: #d1363a;
+}
+.footer {
+    position: relative;
+    z-index: 1;
+    background-color: #252423;
+    padding: 60px 20px 40px;
+    color: #8a8887;
+    font-size: .688rem;
+    text-align: center;
+}
+.frow{
+    padding-top:30px;
+    display:flex;
+    align-items:center;
+    padding-bottom:30px;
+}
+.fcol-content{
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 960px){
+.footer-ul{
+    display: inline-block;
+    padding-top: 0;
+    text-align: left;
+}}
+.footer-ul {
+    padding-top: 30px;
+    vertical-align: middle;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-ul li {
+    display: block;
+    text-transform: uppercase;
+    margin-left: 0;
+    list-style: none;
+}
+@media screen and (min-width: 550px){
+.footer-ul li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}}
+.content-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
+}
